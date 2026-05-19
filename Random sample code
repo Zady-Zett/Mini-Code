@@ -1,0 +1,8 @@
+using System;
+public class Program{
+    public static void Main(){
+        var random = new Random();
+        var number = random.Next(10,21);
+        Console.WriteLine("Slime " + number + " to appear");
+}
+}
